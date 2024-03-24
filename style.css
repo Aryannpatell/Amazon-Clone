@@ -5,6 +5,50 @@
 }
 #navbar{
     height: 60px;
-    background-color: #0f1111;
+    background-color: #131921;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#amzlogo{
+    height: 50px;
+    width: 113px;
+    background-image: url(images/Amazon_Logo.png);
+    background-size: cover;
+    border: 2px solid transparent;
+}
+#amzlogo:hover{
+    border: 1.5px solid white;
+}
+#deliver_to{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+#india{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+#location_icon{
+    display: flex;
+}
+#location{
+    margin: 0px 8px 0px 8px;
+}
+#location:hover{
+    border: 1.5px solid white;
+}
+.nav_search{
+    display: flex;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+}
+.nav_search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
