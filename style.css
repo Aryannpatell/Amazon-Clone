@@ -3,6 +3,14 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
+a{
+    color: #007185;
+}
+a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+    cursor: pointer;
+}
 #navbar{
     height: 60px;
     background-color: #131921;
@@ -15,12 +23,13 @@
     width: 113px;
     background-image: url(images/Amazon_Logo.png);
     background-size: cover;
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
     margin: 0px 10px 0px 10px;
     padding: 0px 5px 0px 5px;
 }
 #amzlogo:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 
@@ -39,9 +48,11 @@
 #location{
     margin: 0px 5px 0px 5px;
     padding: 7px 5px 7px 5px;
+    border: 1.5px solid transparent;
 }
 #location:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 .nav_search{
@@ -51,6 +62,7 @@
     flex-grow: 1;
     margin: 0px 10px 0px 10px;
     border-radius: 7px;
+    border: 3px solid transparent;
 }
 .nav_search:hover{
     border: 3px solid #f3a847;
@@ -84,6 +96,7 @@
     padding: 15px 5px 15px 15px;
     margin: 0px 10px 0px 10px;
     display: flex;
+    border: 1.5px solid transparent;
 }
 .language-flag{
     height: 16.2px;
@@ -98,14 +111,17 @@
 }
 .language:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 .signin{
     margin: 0px 5px 0px 5px;
     padding: 8px;
+    border: 1.5px solid transparent;
 }
 .signin:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 .signin-lineOne{
     padding-left: 5px;
@@ -122,9 +138,11 @@
 .orders{
     margin: 0px 5px 0px 5px;
     padding: 8px;
+    border: 1.5px solid transparent;
 }
 .orders:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 .orders-lineOne{
     font-size: 0.8rem;
@@ -137,10 +155,12 @@
 .cart{
     margin: 0px 10px 0px 5px;
     padding: 7px;
-    display: flex
+    display: flex;
+    border: 1.5px solid transparent;
 }
 .cart:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 .cart-icon{
     height: 30px;
@@ -156,3 +176,49 @@
     font-size: 0.9rem; 
 }
 
+#panel{
+    padding: 0px 15px 0px 15px;
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#panel-all{
+    padding: 9px;
+    border: 1.5px solid transparent;
+}
+#panel-all:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+#panel-ops{
+    display: flex;
+}
+#panel-ops p{
+    padding: 9px;
+    border: 1.5px solid transparent;
+}
+#panel-ops p:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+.hero{
+    height: 320px;
+    background-image: url(images/Hero1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hero-message{
+    width: 100%;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 260px;
+    padding: 10px 14px 10px 14px;
+    background-color: #f5f6f6;
+    color: #0f1111;
+    text-align: center;
+}
