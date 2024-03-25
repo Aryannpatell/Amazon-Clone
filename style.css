@@ -252,3 +252,70 @@ a:hover{
 .box a{
     font-size: 0.8em;
 }
+
+.footer-panel1{
+    margin-top:20px ;
+    height: 50px;
+    color: white;
+    background-color: #485769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.footer-panel2{
+    background-color: #232f3e;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.5px solid #3a4553;
+}
+.footer-panel2 p{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.footer-panel2 a{
+    margin-top: 11px;
+    color: #dddddd;
+    display: block;
+    font-size: 14px;
+}
+.footer-panel2 a:hover{
+    color: #dddddd;
+    text-decoration: underline;
+}
+.footer-panel3{
+    background-color: #232f3e;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerlogo{
+    height: 40px;
+    width: 100px;
+    background-image: url(images/footer_logo.png);
+    background-size: cover;
+}
+.footer-panel4{
+    background-color: #131a22;
+    color: white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.links{
+    padding-top: 25px;
+}
+.copyrights{
+    padding-top: 7px;
+}
+.links a{
+    color: white;
+    margin-right: 10px;
+}
+.links a:hover{
+    color: white;
+    text-decoration: underline;
+}
