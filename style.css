@@ -8,7 +8,6 @@ a{
 }
 a:hover{
     color: #c7511f;
-    text-decoration: underline;
     cursor: pointer;
 }
 #navbar{
@@ -221,4 +220,35 @@ a:hover{
     background-color: #f5f6f6;
     color: #0f1111;
     text-align: center;
+}
+.hero-message a:hover{
+    text-decoration: underline;
+}
+
+
+
+#shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ddcddf;
+    justify-content: space-evenly;
+}
+.box{
+    margin-top: 18px;
+    width: 23.5%;
+    height: 420px;
+    background-color: white;
+}
+.box-content{
+    margin: 20px;
+}
+.box div{
+    height: 300px;
+}
+.box h2{
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+.box a{
+    font-size: 0.8em;
 }
